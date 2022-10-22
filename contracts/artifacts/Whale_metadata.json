@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_data",
+						"type": "bytes32"
+					}
+				],
+				"name": "toShortString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Whale.sol": "Whale"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Whale.sol": {
+			"keccak256": "0x64b9644bb85689afed043d058a8a41162442a473c99880759c4587e130c2f59a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://779857e1120a0aafc07b828256054d94833f27ae201bb1a562e0c213245d0756",
+				"dweb:/ipfs/QmPE2PW1vqkyfMKkXkJEKM56iskyjaQ7EEB9pnnjgL7JgY"
+			]
+		}
+	},
+	"version": 1
+}

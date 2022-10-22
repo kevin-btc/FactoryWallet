@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Wallet.sol": "WalletIn"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ownable.sol": {
+			"keccak256": "0xbb6306b93342a6bc1db493a1f24260df31c7ace0c1899f4a531050591415b198",
+			"license": "None",
+			"urls": [
+				"bzz-raw://5a2a895a38773d554b3727bf0c81f7e139a2aed1721bd7e1e62a1219086b1dad",
+				"dweb:/ipfs/QmTwNRoZDMqB5hRqgTayeJGAHyw59Bfooci6wzh4MTwtHZ"
+			]
+		},
+		"contracts/Wallet.sol": {
+			"keccak256": "0x10f9cf51e85362708f6f32a2eb103c92b1003f7742e6dd95d6d209f5389cd164",
+			"license": "None",
+			"urls": [
+				"bzz-raw://c7d8ae35656dc653f9736090dcb81a49fcedb58664fbc6cfbe5c0da7d70ff51a",
+				"dweb:/ipfs/QmQ2eoxn3PiyTXJZXH6MKTBkCQxRz63iH4eUfbz2Rmj5vp"
+			]
+		}
+	},
+	"version": 1
+}

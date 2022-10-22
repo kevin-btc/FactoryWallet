@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_secret",
+						"type": "string"
+					}
+				],
+				"name": "updatePrice",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PriceUpdater.sol": "PriceUpdater"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PriceUpdater.sol": {
+			"keccak256": "0x777464818d4d815345fba175f565a14e2c79a11f1a392e9ba8c3ee2f3ca87a35",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://80d7408928a7b9bb8f8787949cff4bcfd26f033073a448cea52d945ac7940f50",
+				"dweb:/ipfs/QmRrDuanB7bvd7QM6ZquK9hqAQEsptQSjG1hzrc8ZZZAdm"
+			]
+		}
+	},
+	"version": 1
+}

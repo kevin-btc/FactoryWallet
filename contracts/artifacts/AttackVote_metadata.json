@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_voteAttacked",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "voteAttacked",
+				"outputs": [
+					{
+						"internalType": "contract Vote",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/3_Ballot.sol": "AttackVote"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/3_Ballot.sol": {
+			"keccak256": "0x34fb49d12c7bfb66a3fa1f17ed48b6695f2bd2757d340176e51d413e96266e37",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b703cfcd8db2df04f11172fe6c377d48288a5bc071692e41fd1f8f68d0c2f568",
+				"dweb:/ipfs/QmRAak3vbdFTKPDTCjBtAUw9UKmBL5PeqpHyRsbkTqC27y"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,132 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createWallet",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalanceByContrat",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTotalBalanceByContrat",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "withdrawAllMoneyByContrat",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawMoneyByContrat",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Test.sol": "FactoryWallet"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ownable.sol": {
+			"keccak256": "0xbb6306b93342a6bc1db493a1f24260df31c7ace0c1899f4a531050591415b198",
+			"license": "None",
+			"urls": [
+				"bzz-raw://5a2a895a38773d554b3727bf0c81f7e139a2aed1721bd7e1e62a1219086b1dad",
+				"dweb:/ipfs/QmTwNRoZDMqB5hRqgTayeJGAHyw59Bfooci6wzh4MTwtHZ"
+			]
+		},
+		"contracts/Test.sol": {
+			"keccak256": "0x1134e0e39e7820e99e9041c7769a44b07daab40d422b88a24006984d7f9504a6",
+			"license": "None",
+			"urls": [
+				"bzz-raw://f9d89aefc7b43c7b8aeafcd136e038762dc1ebb0a0237b5ddaf541721647607d",
+				"dweb:/ipfs/QmRT6kpJcMTC1Zr6VVNyjBwKNXoCC1rrX2WyfNdoc4fRYr"
+			]
+		},
+		"contracts/Wallet.sol": {
+			"keccak256": "0x4458bd5cca58de4d15f9582ff44959b1583ec43459fec967d48c589e41b9a5f5",
+			"license": "None",
+			"urls": [
+				"bzz-raw://53fce0a92318721350c7725aafacba107c953911c46742ec1c344743a63c8d84",
+				"dweb:/ipfs/QmXHDzhGnhDoiTw73eokdpHDesAPfrsZn4PPan6DDvyCWQ"
+			]
+		}
+	},
+	"version": 1
+}
